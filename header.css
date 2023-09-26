@@ -1,0 +1,51 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: fit-content;
+}
+
+.bright-icon {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 12vw;
+
+    transition: all 0.35s;
+}
+
+.bright-icon:hover {
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    transform: rotate(90deg);
+}
+
+.head-text {
+    display: flex;
+    justify-content: space-around;
+
+    position: absolute;
+    right: 40px;
+    top: 33px;
+
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+
+    transition: all 0.15s;
+}
+
+.head-text p:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(255, 100, 100);
+}
+
+@media (min-width: 1024px) {
+    .header-container {
+        height: 50px;
+    }
+}

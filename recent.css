@@ -1,0 +1,99 @@
+.recent {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    top: 0px;
+
+    background-color: rgb(57, 102, 128);
+    width: 100%;
+    height: 450px;
+    margin-right: 0;
+}
+
+
+
+.recent-post {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+
+    max-width: auto;
+    width: 400px;
+
+    margin-right: 30px;
+    margin-left: 30px;
+
+    background-color: rgb(27, 63, 84);
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-sizing: content-box;
+    transition: all 0.15s;
+}
+
+.recent-post:hover {
+    box-shadow: 0px 0px 20px rgb(255, 100, 100);
+}
+
+
+.recent-title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 26px;
+    color: rgb(213, 226, 246);
+    width: 350px;
+}
+
+.recent-info {
+    color: rgb(213, 226, 246);
+    font-size: 20px;
+    margin-top: 40px;
+    white-space: nowrap;
+    width: 100px;
+}
+
+.recent-content {
+    position: relative;
+    color: rgb(213, 226, 246);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+
+.recent-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+
+    width: 100%;
+    height: 30px;
+
+    font-family: Calibri;
+    font-weight: 400;
+}
+
+.recent-left {
+    position: relative;
+    color: rgb(213, 226, 246);
+    left: 12vw;
+
+    font-size: 30px;
+}
+
+.recent-right {
+    position: relative;
+    right: 50px;
+    color: rgb(45, 210, 246);
+
+    font-size: 26px;
+}
+
+.recent-right:hover {
+    cursor: pointer;
+    color: rgb(255, 100, 100);
+}
